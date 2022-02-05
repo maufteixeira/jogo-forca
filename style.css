@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+}
+
+.tela {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.visao {
+    font-size: 36px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color:darkgreen;
+    font-weight:bold;
+    text-align: center;
+    text-decoration : none;
+}
+
+.gameover {
+    font-size: 20px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color:red;
+    font-weight:bold;
+    text-decoration : none;
+    text-align: center;
+}
+
+.winner {
+    font-size: 20px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color:green;
+    font-weight:bold;
+    text-decoration : none;
+    text-align: center;
+}
+
+#jg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: darkgreen;
+    border: none;
+}
+
+#input {
+    width: 45px;
+    height: 35px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#play {
+    height: 35px;
+    width: 75px;
+    border-radius: 6px;
+    color: #CCC;
+    background-color: #006400;
+    margin-bottom: 10px;
+}
+
+#tcdo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#g{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+
+.letras {
+    color: #006400;
+    margin-top: 10px;
+}
+
+.errada {
+    color: red;
+}
+
+#novo {
+    margin-left: 30px;
+    margin-right: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 35px;
+    border-radius: 6px;
+
+}
+
+#adc {
+    height: 35px;
+    width: 60px;
+    margin-right: 100px;
+    border-radius: 6px;
+    color: #CCC;
+    background-color: darkblue;
+}
+
+#inicia {
+    border-radius: 6px;
+    height: 45px;
+    color: #CCC;
+    background-color: green;
+    margin-left: 100px;
+}

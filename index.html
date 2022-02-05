@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jogo da Forca em Javascript</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body onload="sorteio()">
+    <div class="tela">
+      <input type="text" id="novo"> 
+      <button type="button" id="adc" onclick="adcPalavra()" title="Adicionar palavras">SALVAR</button>
+      <canvas width="1200" height="800">
+      </canvas>
+      <button type="button" onclick="iniciaJogo()" id="inicia" title="Novo jogo">INICIAR JOGO</button>
+    </div>
+    <div id="jg"></div>
+    <div id="tcdo">
+      <label for="input"><b>LETRA: </b>
+        <input type="text" id = input autofocus maxlength="1" />
+        <button type="button" onclick="jogar()" id="play" title="Jogar">TENTAR </button>
+      </label>
+      <label><b>LETRAS DIGITADAS: </b>
+        <label class="letras"></label>
+      </label>
+      <br>
+      <label><b>LETRAS ERRADAS: </b>
+        <label class="errada"></label>
+      </label>
+    </div>
+    <div id="g"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
